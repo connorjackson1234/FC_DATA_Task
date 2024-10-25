@@ -1,0 +1,9 @@
+{
+	"name": "FCADFTASK",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d1b94d31-47bc-44bf-8a96-d28a6d2630e2",
+		"tenantId": "7e1637db-32d3-49eb-b1d5-34e1375b053c"
+	}
+}
