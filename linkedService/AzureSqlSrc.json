@@ -5,13 +5,8 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"server": "fc-db-src.database.windows.net",
-			"database": "fc-db-src",
-			"encrypt": "mandatory",
-			"trustServerCertificate": false,
-			"authenticationType": "SQL",
-			"userName": "FCSVRADMIN",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDFBOTk3NTFDLUFCNTQtNDI2Mi04MUU3LTU1RjA0NzI4RUEzMV9jZTcxYWM0My01NjlhLTRhOGMtODFhZC1iYzg4ZTVkOTg3MGQiDQp9"
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=fc-db-src.database.windows.net;initial catalog=fc-db-src;user id=FCSVRADMIN",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDFBOTk3NTFDLUFCNTQtNDI2Mi04MUU3LTU1RjA0NzI4RUEzMV8yZGJiMDI4Mi0wMmIzLTQxODUtYmRmNS1iODA0OTJmMTcyM2EiDQp9"
 		}
 	}
 }
